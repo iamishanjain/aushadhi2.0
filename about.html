@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="telegram.png"></a>
+        
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="first.html">HOME</a></li>
+                <li><a href="about us.html">ABOUT</a></li>
+                <li><a href="medicine.html">MEDICINES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact-us.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+             </nav>
+             <h1>ABOUT US</h1>
+
+    </section>
+    <!------content about us-->
+      <section class="about-us">
+
+       <div class="row">
+        <div class="about-col">
+     <h1>We Are The Worlds Leading Pharmaceutical Company</h1>
+     <p>hello everyone we are aushadhi.com and we provide traetment regarding all the health problems. And recently we have been declared the best pharaceutical company by WHO.</p>
+     <a href="" class="btn yo-btn">EXPLORE NOW</a>    
+    </div>
+      <div class="about-col"> 
+        <img src="pic10.jpg">
+      </div>
+       </div>
+
+      </section>      
+
+      
+      
+      
+      <!-------footer-->
+     
+       <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>If you have any query you can know more<br> about us by clicking on this</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+       <p>Made with<i class="fa fa-heart-o"></i> by Ishan Jain and Himanshu Sharma</p>
+       </section>
+
+
+   <!------javascript----->     
+<script>
+var navLinks = document.getElementById("navLinks");
+     
+     function showMenu(){
+       navLinks.style.right = "0"; 
+     }
+     function hideMenu(){
+       navLinks.style.right = "-200px"; 
+     }
+
+    </script>
+    
+</body>
+</html>
