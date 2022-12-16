@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="telegram.png"></a>
+        
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="first.html">HOME</a></li>
+                <li><a href="about us.html">ABOUT</a></li>
+                <li><a href="">MEDICINES</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="contact-us.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+             </nav>
+             <h1>CONTACT US</h1>
+
+    </section>
+     
+      <section class="location">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1jBRh2yzA1mu3jvlLH4E6YqWPerk&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
+     
+      </section>
+
+      <section class="contact-us">
+ 
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>tonk road, jaipur</h5>
+                        <p>Rajasthan, IN</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+1 987654321</h5>
+                    <p>customr-care</p>
+                </span>
+            </div>
+            <div class="contact-col">
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>ishanjain026@gmail.com</h5>
+                    <p>E-mail us your Query </p>
+                </span>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter your email address" required>
+                     <input type="text" placeholder="Enter Your disease" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                   <button type="submit" class="btn yo btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+      </section>
+      
+      
+      
+      <!-------footer-->
+     
+       <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>If you have any query you can know more<br> about us by clicking on this</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+       <p>Made with<i class="fa fa-heart-o"></i> by Ishan Jain and Himanshu Sharma</p>
+       </section>
+
+
+   <!------javascript----->     
+<script>
+var navLinks = document.getElementById("navLinks");
+     
+     function showMenu(){
+       navLinks.style.right = "0"; 
+     }
+     function hideMenu(){
+       navLinks.style.right = "-200px"; 
+     }
+
+    </script>
+    
+</body>
+</html>
